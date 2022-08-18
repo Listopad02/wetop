@@ -1,0 +1,459 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.contactForm {
+  overflow: hidden;
+  text-align: center;
+}
+.contactForm p {
+  padding: 20px 0 20px 0;
+}
+
+.contactForm input {
+  display: block;
+  margin-top: 20px;
+  border-radius: 0px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -khtml-border-radius: 0px;
+  outline: none;
+  border: 0px;
+  width: 250px;
+  outline: none;
+  height: 50px;
+  background-color: #311b92;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+  color: #eee;
+  font-size: 16px;
+  caret-color: #eee;
+  margin: 20px auto;
+  padding-left: 15px;
+}
+
+.contactForm input::placeholder {
+  font-size: 16px;
+  color: #eee;
+  transition: 0.3s;
+}
+.contactForm input:focus::placeholder {
+  color: rgba(0, 0, 0, 0.3);
+  transition: 0.3s;
+}
+.contactForm select {
+  border-radius: 0px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -khtml-border-radius: 0px;
+  border: 0px;
+  outline: none;
+  border: none;
+  width: 265px;
+  outline: none;
+  height: 50px;
+  background-color: #311b92;
+  font-size: 16px;
+  color: #eee;
+  padding-left: 10px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+}
+
+.contactForm select:active,
+select:focus {
+  outline: none;
+}
+
+/* Extra small devices (portrait phones, максимальная ширина области просмотра 576px и ниже) */
+@media (max-width: 575.98px) {
+  body {
+    background-image: url(../images/backgoundmobile.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 100% 0%;
+    color: #eaeaea;
+    font-size: 14px !important;
+  }
+  .wetop {
+    padding-top: 20px;
+    font-family: "nickelodeon2001headline";
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-image: linear-gradient(267.79deg, #6309f0 0%, #81aef2 99.07%);
+    font-size: 40px;
+  }
+  .face {
+    padding-bottom: 100px;
+  }
+  .face_o {
+    margin-top: 60px !important;
+    font-size: 30px !important;
+  }
+  .caption {
+    font-size: 30px !important;
+  }
+  .logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .slogan {
+    padding-top: 1px !important;
+  }
+  .portItem {
+    background-size: 120% !important;
+    height: 280px !important;
+  }
+  .portItem:hover {
+    background-size: 125% !important;
+  }
+  .portInfo {
+    height: 180px !important;
+  }
+  [data-tooltip]::after {
+    width: 200px !important;
+  }
+}
+
+/* Small devices (landscape phones, максимальная ширина области просмотра 768px и ниже) */
+@media (min-width: 575.98px) and (max-width: 767.98px) {
+  body {
+    background-image: url(../images/backgoundmobile.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 100% 0%;
+    color: #eaeaea;
+    font-size: 14px !important;
+  }
+  .wetop {
+    padding-top: 20px;
+    font-family: "nickelodeon2001headline";
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-image: linear-gradient(267.79deg, #6309f0 0%, #81aef2 99.07%);
+    font-size: 40px;
+  }
+  .face {
+    padding-bottom: 100px;
+  }
+  .face_o {
+    margin-top: 60px !important;
+    font-size: 30px !important;
+  }
+  .caption {
+    font-size: 30px !important;
+  }
+  .logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .slogan {
+    padding-top: 1px !important;
+  }
+  .portItem {
+    background-size: 120% !important;
+    height: 280px !important;
+  }
+  .portItem:hover {
+    background-size: 125% !important;
+  }
+  .portInfo {
+    height: 180px !important;
+  }
+  [data-tooltip]::after {
+    width: 200px !important;
+  }
+}
+
+/* Medium devices (tablets, максимальная ширина области просмотра 992px и ниже) */
+@media (min-width: 767.98px) and (max-width: 991.98px) {
+  body {
+    background-image: url(../images/backgound.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 100% 0%;
+    color: #eaeaea;
+    font-size: 18px;
+  }
+  .wetop {
+    font-family: "nickelodeon2001headline";
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-image: linear-gradient(267.79deg, #6309f0 0%, #81aef2 99.07%);
+    font-size: 50px;
+  }
+  .logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .slogan {
+    padding-top: 8px;
+    padding-left: 8px;
+    line-height: 20px;
+  }
+}
+
+/* Large devices (desktops, максимальная ширина области просмотра 1200px и ниже) */
+@media (min-width: 991.98px) and (max-width: 1199.98px) {
+  body {
+    background-image: url(../images/backgound.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 100% 0%;
+    color: #eaeaea;
+    font-size: 18px;
+  }
+  .wetop {
+    font-family: "nickelodeon2001headline";
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-image: linear-gradient(267.79deg, #6309f0 0%, #81aef2 99.07%);
+    font-size: 50px;
+  }
+  .logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .slogan {
+    padding-top: 8px;
+    padding-left: 8px;
+    line-height: 20px;
+  }
+}
+/* Large devices (desktops, максимальная ширина области просмотра 1200px и ниже) */
+@media (min-width: 1199.98px) {
+  body {
+    background-image: url(../images/backgound.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 100% 0%;
+    color: #eaeaea;
+    font-size: 18px;
+  }
+  .wetop {
+    font-family: "nickelodeon2001headline";
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-image: linear-gradient(267.79deg, #6309f0 0%, #81aef2 99.07%);
+    font-size: 50px;
+  }
+  .logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .slogan {
+    padding-top: 8px;
+    padding-left: 8px;
+    line-height: 20px;
+  }
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.img {
+  width: 100%;
+}
+.header {
+  height: 100vh;
+}
+.partIcon div {
+  text-align: center;
+}
+.face_o {
+  font-size: 45px;
+}
+.face {
+  display: flex;
+  align-items: center;
+  min-height: 100%;
+}
+.face > div > div {
+  margin-top: 15px;
+}
+.about {
+  display: flex;
+  align-items: center;
+  min-height: 100%;
+}
+.caption {
+  font-size: 40px;
+}
+.description {
+  padding: 30px;
+}
+.portItem {
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: 50% 50%;
+  transition: 0.3s;
+}
+.portItem:hover {
+  background-size: 120%;
+}
+.portCard {
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  opacity: 0;
+  transition: 0.5s;
+}
+.portCard:hover {
+  opacity: 1;
+  transition: 0.5s;
+}
+.portTitle {
+  font-size: 25px;
+  padding: 10px;
+}
+.portTitle > ul > li {
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.portInfo {
+  padding-left: 10px;
+  height: 200px;
+}
+.contacts > div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 10px;
+  padding-right: 10px;
+}
+.contacts > div > div {
+  padding-left: 10px;
+}
+.contactsIcon img {
+  padding: 5px;
+}
+
+.borderTop {
+  border: 1px solid transparent;
+  border-image: linear-gradient(
+    to left bottom,
+    #311b92 10%,
+    transparent 50%,
+    transparent 70%,
+    transparent 30%
+  );
+  border-image-slice: 1;
+}
+
+.borderBottom {
+  border: 1px solid transparent;
+  border-image: linear-gradient(
+    to left bottom,
+    transparent 10%,
+    transparent 10%,
+    transparent 50%,
+    #311b92 70%
+  );
+  border-image-slice: 1;
+}
+.closeIcon {
+  position: absolute !important;
+  top: 0;
+  right: 0;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.MuiTextField-root > label {
+  color: white;
+}
+.MuiFormControl-root > label {
+  color: white;
+}
+.MuiSelect-select {
+  color: white;
+}
+
+.workCard {
+  height: 260px;
+  background-color: rgba(0, 0, 99, 0.2);
+  padding: 30px;
+}
+.workCard ul {
+  line-height: 30px;
+  cursor: pointer;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+[data-tooltip] {
+  position: relative; /* Относительное позиционирование */
+}
+[data-tooltip]::after {
+  content: attr(data-tooltip); /* Выводим текст */
+  position: absolute; /* Абсолютное позиционирование */
+  width: 300px; /* Ширина подсказки */
+  left: 5%;
+  top: 100%; /* Положение подсказки */
+  background: #311b92; /* Синий цвет фона */
+  color: #fff; /* Цвет текста */
+  padding: 0.5em; /* Поля вокруг текста */
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Параметры тени */
+  pointer-events: none; /* Подсказка */
+  opacity: 0; /* Подсказка невидима */
+  transition: 0.5s; /* Время появления подсказки */
+  z-index: 5000;
+  line-height: 18px;
+}
+[data-tooltip]:hover::after {
+  opacity: 1; /* Показываем подсказку */
+  left: 2em; /* Положение подсказки */
+}
+
+.partIcon img {
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: grayscale(100%);
+  filter: gray; /* IE 6-9 */
+  transition: 0.5s;
+}
+
+.partIcon img:hover {
+  -webkit-filter: grayscale(0%);
+  -moz-filter: grayscale(0%);
+  -ms-filter: grayscale(0%);
+  -o-filter: grayscale(0%);
+  filter: grayscale(0%);
+  filter: gray; /* IE 6-9 */
+  transition: 0.5s;
+}
+.MuiFilledInput-input,
+.MuiSelect-select {
+  color: white;
+}
+.MuiSvgIcon-root {
+  color: white;
+}
+
+.MuiFormControl-root > label {
+  color: white;
+}
